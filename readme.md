@@ -27,12 +27,9 @@ This app utilizes OpenAI's GPT-3 model for text-to-speech conversion. It provide
 api_key=YOUR_API_KEY_HERE
 ```
 
-4. Run the Streamlit app using the command `streamlit run app.py`.
+4. Run the Streamlit app using the command `streamlit run main.py`.
 5. Access the app in your web browser at the provided URL.
 
-## Authors
-
-- [Your Name]
 
 ## License
 
