@@ -1,42 +1,38 @@
-# OpenAI Chatbot Streamlit Application
+# AI Story Teacher App
 
-This is a Streamlit application that utilizes the OpenAI API to generate responses based on user prompts using the GPT-3.5 model.
+The AI Story Teacher App is a web application that generates audio narration from text input using OpenAI's GPT-3 model. It can be used to convert written text into spoken audio, making it useful for creating narrations, audio stories, or generating speech from any textual content.
 
-## Installation
+## How to Use
 
-1. Clone the repository:
+1. Enter the text you want to convert to audio in the text area provided.
+2. Click on the "Generate Audio" button to generate audio from the entered text.
+3. Once the audio is generated, you can listen to it directly on the app or download it as an MP3 file by clicking the "Download Audio" button.
 
-    ```bash
-    git clone https://github.com/achuajays/ai-roadmap.git
-    ```
+## About the App
 
-2. Install the required dependencies:
+This app utilizes OpenAI's GPT-3 model for text-to-speech conversion. It provides a simple and intuitive interface for generating audio from text, making it accessible for various purposes such as storytelling, content creation, or accessibility for visually impaired users.
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+## Dependencies
 
-3. Create a `.env` file in the root directory of the project and add your OpenAI API key:
+- [Streamlit](https://streamlit.io/)
+- [dotenv](https://pypi.org/project/python-dotenv/)
+- [OpenAI](https://pypi.org/project/openai/)
 
-    ```plaintext
-    api_key=your_openai_api_key_here
-    ```
+## Setup
 
-## Usage
+1. Clone this repository.
+2. Install the required dependencies by running `pip install -r requirements.txt`.
+3. Create a `.env` file in the root directory and add your OpenAI API key in the following format:
+```env
+api_key=YOUR_API_KEY_HERE
+```
 
-1. Run the Streamlit app:
+4. Run the Streamlit app using the command `streamlit run app.py`.
+5. Access the app in your web browser at the provided URL.
 
-    ```bash
-    streamlit run main.py
-    ```
+## Authors
 
-2. Access the application in your web browser.
-
-3. Enter a prompt in the text input field and click the submit button to generate a response from the OpenAI chatbot.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue if you encounter any problems or have suggestions for improvements.
+- [Your Name]
 
 ## License
 
